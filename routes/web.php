@@ -17,15 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('encuentro', function () {
-    return view('about');
-});
-
-
-Route::get('contact', function () {
-    return view('contact');
-});
-
-Route::get('accomplishments', function () {
-    return view('accomplishments');
-});
